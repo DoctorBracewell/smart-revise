@@ -20,6 +20,7 @@ Due to copyright concerns, this repository will **not** contain any of these JSO
 3. Copy and paste the entirety of `setup.js` into the console and click enter.
 4. Copy and paste the entirety of `run.js` into the console and click enter.
 5. The bot has started! Every time it encounters a question, it will check if it has the answer to the question saved in its data. If not, it will answer randomly and record the correct answer in its memory. When it encounters the same question again, it will answer correctly!
+6. There is a delay of ~5 seconds between each answer to avoid being rate-limited by the question API.
 
 ### Saving bot data
 1. In order for your bot to retain the questions it has learned the answer to, you must reguarly export its memory and save it an external JSON file.
