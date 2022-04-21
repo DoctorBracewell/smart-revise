@@ -56,7 +56,7 @@ async function answerQuestion() {
                 .join("");
         
         // Answer
-        await answer(document.querySelector("#questiontext").textContent, keys);
+        await answer(document.querySelector("#questiontext").textContent, concatenatedIDs);
 
     } catch(error) {
         // Catch errors just in case, then click the first answer to continue to the next question.
