@@ -30,7 +30,7 @@ a[data-answerid="${qData.get(question).get(keys)}"]`).click();
     await sleep(4000);
 }    
 
-async function startLoop() {
+async function answerQuestion() {
     try {
         // Because there are sometimes duplicate questions with different answers,
         // we use have nested maps that look like so:
