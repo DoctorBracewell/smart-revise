@@ -75,3 +75,5 @@ async function answerQuestion() {
     // Only repeat if loop is active
     if (repeat) answerQuestion();
 }    
+
+answerQuestion();
